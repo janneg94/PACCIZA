@@ -1,0 +1,179 @@
+/*Caracteristicas del body*/
+body {
+  margin: 0px;
+}
+
+/* Clean */
+.clr{
+  clear:both;
+}
+
+/* Clase de barra de menu */
+.navbar {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: Raleway;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  text-align: right;
+  padding: 20px;
+  margin-left: 200px;
+  padding-right: 250px;
+  position: sticky;
+  width: auto;
+}
+
+.navbar a {
+  text-decoration:none;
+  color: white;
+}
+
+/*Ordenar los elementos de navbar */
+.navbar li {
+  display: inline;
+  padding: 2px 20px;
+  padding-right: 30px;
+}
+
+/* Sombreado a las opciones */
+.navbar a:hover {
+  color: #f48c42;
+  }
+
+/* Navbar completa */
+.bar {
+  position: sticky;
+}
+
+/* Logo */
+.logo {
+  float: left;
+  margin-left: 19px;
+  height: 60px;
+  position: sticky;
+}
+
+.logosquare {
+  float: left;
+  margin-left: 0px;
+  height: 59px;
+  width:  200px;
+  position: sticky;
+  background-color: black;
+}
+
+.detalle{
+  font-family: 'News Cycle', sans-serif;
+  margin-top: 20px;
+  display: block;
+  height: auto;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.domicilio{
+  font-family: 'News Cycle', sans-serif;
+  margin-top: 20px;
+  display: block;
+  height: auto;
+  width: 400px;
+  margin: auto;
+}
+
+.input{
+  width: 100%;
+  display: inline-block;
+}
+
+.cp{
+  width: 20%;
+}
+
+/* Color y estilo a los botones */
+
+button{
+  padding: 5px;
+  float: right;
+  font-family: 'News Cycle', sans-serif;
+  color: #ff5328;
+  font-weight: bold;
+}
+
+button:hover{
+  color: white;
+  background-color: #ff5328;
+}
+
+ h2{
+  text-align: center;
+  font-family: 'News Cycle', sans-serif;
+}
+
+select{
+  font-family: 'News Cycle', sans-serif;
+  padding: 5px;
+  font-size: 15px;
+  display: block;
+}
+
+.cajas{
+  width: 20px;
+  float:right;
+}
+
+/* Footer */
+#footer{
+  margin-top: 10%;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 13px;
+  background: #808080;
+  color: #fff;
+  padding: 4px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.linkCopy{
+ font-weight: bold;
+}
+
+#footer a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#prefooter{
+	font-family: 'News Cycle', sans-serif;
+	font-size: 15px;
+  background: #333;
+  color: #fff;
+  padding: 30px;
+}
+
+#imginst{
+  float:right;
+  height: 27px;
+  width: auto;
+  display: block;
+  margin-right: 500px;
+}
+
+#imgfb{
+  float:right;
+  height: 30px;
+  width: auto;
+  display: block;
+}
+
+
+#footer p{
+    display: block;
+    text-align: center;
+ }
+
+ .opfoot li{
+	 margin-left: 400px;
+	 list-style:none;
+ }

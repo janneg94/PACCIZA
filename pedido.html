@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Pedido - Pacizza </title>
+  <link rel="shortcut icon" href="logopac.ico">
+  <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="pedidocss.css">
+</head>
+
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="bar">
+    <!-- Logo -->
+    <div class="logosquare">
+      <img class="logo" src="pacc.png" alt="Pacizza">
+    </div>
+
+    <!-- Creacion de Menu -->
+    <ul class="navbar">
+      <li><a href="Home.html">Inicio</a></li>
+      <li><a href="pizzas.html">Pizzas</a></li>
+      <li><a href="sucursales.html">Sucursales</a></li>
+    </ul>
+  </nav><br>
+
+  <!-- Detalle del pedido y opciones -->
+  <header>
+    <h2>Pedido</h2>
+  </header><br>
+  <main>
+    <article class="detalle">
+      <label for="">Masa: </label>
+      <select name="masa">
+        <option value="O">Original</option>
+        <option value="Q">Original Rellena de Queso</option>
+        <option value="S">Pizza de Sarten</option>
+        <option value="D">Delgada</option>
+      </select><br>
+      <label for="">Tamaño: </label>
+      <select name="Tamaño">
+        <option value="C">Chica</option>
+        <option value="M">Mediana</option>
+        <option value="G">Grande</option>
+      </select><br>
+      <label for="">Complementos:</label><br>
+      <input type="checkbox" name="" value=""> Refresco 600 ml <input class="cajas" type="text" name="" value="0"><br>
+      <input type="checkbox" name="" value=""> Refresco 2Lt <input class="cajas" type="text" name="" value="0"><br>
+      <input type="checkbox" name="" value=""> Alitas <input class="cajas" type="text" name="" value="0"><br>
+      <input type="checkbox" name="" value=""> Papas <input class="cajas" type="text" name="" value="0"><br>
+    </article>
+    <header>
+      <h2>Dirección
+    </header>
+    </h2>
+    <article class="domicilio">
+      <label for="">Calle</label>
+      <input class="input" type="text" name="" value=""><br>
+      <label for="">Colonia</label>
+      <input class="input" type="text" name="" value=""><br>
+      <label for="">Municipio</label>
+      <input class="input" type="text" name="" value=""><br><br>
+      <label for="">Codigo postal</label>
+      <input class="cp" type="text" name="" value=""><br>
+      <button type="button" name="button" onclick="window.location.href = 'enviado.html';">Enviar Pedido</button>
+    </article>
+  </main>
+  <!-- Footer  -->
+  <footer id="footer">
+    <div id="prefooter">
+      <ul class="opfoot">
+        <li><a href="terminos.html">Términos y condiciones</a></li>
+        <li><a href="aviso.html">Aviso de privacidad</a><a href="www.facebook.com"></li><img id="imginst" src="instagram.png" alt="" href="www.instagram.com"></a>
+        <a href="www.facebook.com"></li><img id="imgfb" src="fb.png" alt="" href="www.facebook.com"></a>
+        <li><a href="somos.html">¿Quiénes somos?</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      <div class="redes">
+
+      </div>
+    </div>
+    <p>2019 &copy; Pacciza Todos los derechos reservados. <a class="linkCopy" href="terminos.html">Términos y condiciones</a></p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,324 @@
+/*Caracteristicas del body*/
+body {
+  margin: 0px;
+}
+
+/* Clean */
+.clr{
+  clear:both;
+}
+
+/* Clase de barra de menu */
+.navbar {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: Raleway;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  text-align: right;
+  padding: 20px;
+  margin-left: 200px;
+  padding-right: 250px;
+  position: sticky;
+  width: auto;
+}
+
+.navbar a {
+  text-decoration:none;
+  color: white;
+}
+
+/*Ordenar los elementos de navbar */
+.navbar li {
+  display: inline;
+  padding: 2px 20px;
+  padding-right: 30px;
+}
+
+/* Sombreado a las opciones */
+.navbar a:hover {
+  color: #f48c42;
+  }
+
+/* Navbar completa */
+.bar {
+  position: sticky;
+}
+
+/* Logo */
+.logo {
+  float: left;
+  margin-left: 19px;
+  height: 60px;
+  position: sticky;
+}
+
+.logosquare {
+  float: left;
+  margin-left: 0px;
+  height: 59px;
+  width:  200px;
+  position: sticky;
+  background-color: black;
+}
+
+/*Estilo de los parrafos */
+
+.container{
+  margin-bottom: 600px;
+  margin-top: 40px;
+  margin-left: 7%;
+}
+
+.container p{
+  font-family: 'News Cycle', sans-serif;
+  font-weight: bold;
+}
+
+/* Color y estilo a los botones */
+.container button{
+  color: #ff5328;/*#d15a00;*/
+  font-weight: bold; 
+}
+
+.container button:hover{
+  color: white;/*#d15a00;*/
+  background-color: #ff5328;
+}
+
+h3{
+  color: #e55454;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 25px;
+}
+
+.pizzapep {
+  float: left;
+  margin-left: 120px;
+  border: #b5b5b5 solid 2px;
+  height: 350px;
+  width: 260px;
+  margin-right: 3%;
+}
+
+.pizzapep p{
+  text-align: left;
+  margin-left: 70px;
+  font-size: 18px;
+}
+
+.pizzapep img{
+  text-align: center;
+  height: 200px;
+  width: 250px;
+}
+
+.pizzapep button{
+  font-family: 'News Cycle', sans-serif;
+  float: right;
+  margin-right: 85px;
+  padding: 5px;
+  width: 40%;;
+}
+
+
+.pizzaqueso {
+  float: left;
+  border: #b5b5b5 solid 2px;
+  height: 350px;
+  width: 260px;
+  margin-right: 3%;
+}
+
+.pizzaqueso p{
+  text-align: left;
+  margin-left: 70px;
+  font-size: 18px;
+}
+
+.pizzaqueso img{
+  text-align: center;
+  height: 200px;
+  width: 240px;
+}
+
+.pizzaqueso button{
+  font-family: 'News Cycle', sans-serif;
+  float: right;
+  margin-right: 85px;
+  padding: 5px;
+  width: 40%;;
+}
+
+.pizzasupreme {
+  float: left;
+  border: #b5b5b5 solid 2px;
+  height: 350px;
+  width: 260px;
+  margin-right: 3%;
+}
+
+.pizzasupreme p{
+  text-align: left;
+  margin-left: 70px;
+  font-size: 18px;
+}
+
+.pizzasupreme img{
+  text-align: center;
+  height: 200px;
+  width: 240px;
+}
+
+.pizzasupreme button{
+  font-family: 'News Cycle', sans-serif;
+  float: right;
+  margin-right: 85px;
+  padding: 5px;
+  width: 40%;;
+}
+
+.pizzaveg {
+  float: left;
+  border: #b5b5b5 solid 2px;
+  height: 350px;
+  width: 260px;
+  margin-top: 2%;
+  margin-left: 9.5%;
+}
+
+.pizzaveg p{
+  text-align: left;
+  margin-left: 70px;
+  font-size: 18px;
+}
+
+.pizzaveg img{
+  text-align: center;
+  height: 200px;
+  width: 240px;
+}
+
+.pizzaveg button{
+  font-family: 'News Cycle', sans-serif;
+  float: right;
+  margin-right: 85px;
+  padding: 5px;
+  width: 40%;
+}
+
+.pizzahaw {
+  float: left;
+  border: #b5b5b5 solid 2px;
+  height: 350px;
+  width: 260px;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+
+.pizzahaw p{
+  text-align: left;
+  margin-left: 70px;
+  font-size: 18px;
+}
+
+.pizzahaw img{
+  text-align: center;
+  height: 200px;
+  width: 240px;
+}
+
+.pizzahaw button{
+  font-family: 'News Cycle', sans-serif;
+  float: right;
+  margin-right: 85px;
+  padding: 5px;
+  width: 40%;
+}
+
+.pizzacarnes {
+  float: left;
+  border: #b5b5b5 solid 2px;
+  height: 350px;
+  width: 260px;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+
+.pizzacarnes p{
+  text-align: left;
+  margin-left: 70px;
+  font-size: 18px;
+}
+
+.pizzacarnes img{
+  text-align: center;
+  height: 200px;
+  width: 240px;
+}
+
+.pizzacarnes button{
+  font-family: 'News Cycle', sans-serif;
+  float: right;
+  margin-right: 85px;
+  padding: 5px;
+  width: 40%;
+}
+
+/* Footer */
+#footer{
+  margin-top: 65%;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 13px;
+  background: #808080;
+  color: #fff;
+  padding: 4px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.linkCopy{
+ font-weight: bold;
+}
+
+#footer a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#prefooter{
+	font-family: 'News Cycle', sans-serif;
+	font-size: 15px;
+  background: #333;
+  color: #fff;
+  padding: 30px;
+}
+
+#imginst{
+  float:right;
+  height: 27px;
+  width: auto;
+  display: block;
+  margin-right: 500px;
+}
+
+#imgfb{
+  float:right;
+  height: 30px;
+  width: auto;
+  display: block;
+}
+
+
+#footer p{
+    display: block;
+    text-align: center;
+ }
+
+ .opfoot li{
+	 margin-left: 400px;
+	 list-style:none;
+ }
